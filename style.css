@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Rajdhani&family=Roboto:wght@500;700;900&display=swap');
+
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h5{
+  font-family: 'Kanit', sans-serif; ;
+}
+body{
+  display: flex;
+  margin:0;
+  padding:0;
+  
+}
+
+nav{
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+}
+.top{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20% 0%;
+  height: 40%;
+}
+
+.top i{
+  font-size: 6rem;
+  text-align: center;
+  font-weight: lighter;
+  color: white;
+  padding-bottom: 10%;
+}
+.top h1{
+  color: white;
+  font-size: 2.3rem;
+} 
+.top h3{
+  color: rgba(255,255,255,0.5);
+  text-transform: uppercase;
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding-top: 8%;
+  width: 100%;
+  height: 30%;
+}
+ul li{
+  margin: 3%;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: rgba(0,0,0,0.4);
+}
+ul li:nth-child(1){
+  color: black;
+}
+.down{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button{
+  width: 40%;
+  padding: 4% 5%;
+  margin-top: 30%;
+  border: none;
+  background-color: rgba(0,0,0,0.1);
+  margin-bottom: 10%;
+  height: 60%;
+}
+.buy{
+  font-weight: bolder;
+  font-size: 0.8rem;
+  color:rgba(0,0,0,0.6);
+}
+.icon__container i{
+  color: rgba(0,0,0,0.6);
+}
+.icon__container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20%;
+}
+/* main section */
+.main{
+  margin-left:20%;
+  position: relative;
+}
+
+/* main__top */
+.main__top{
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0.5),
+    rgba(255,0,0,0.3),
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0.6)
+    
+  ),
+  url("_118800307_gettyimages-1319639423\ \(2\).jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  /* position: relative; */
+  margin-right: -10%;
+}
+.main__top h3{
+  padding-top:10%;
+  padding-left: 10%;
+  font-size: 1.3rem;
+  color: white;
+}
+.main__top h1{
+  padding-left: 10%;
+  padding-top: 5%;
+  width: 80%;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  line-height: 100%;
+}
+.main__top p{
+  padding-left: 10%;
+  padding-top: 5%;
+  font-size: 1rem;
+  width: 70%;
+  color: white;
+}
+.main__top span{
+  color: rgb(255, 81, 0);
+}
+
+.text__container{
+  width: 70%;
+  padding-top: 10%;
+}
+.read p{
+  font-size: 43%;
+}
+.read{
+  margin-left: 10%;
+}
+.read p{
+  color: black;
+}
+
+.pic__container{
+  position: absolute;
+  bottom:-100px;
+  right: 300px;
+  background-image:url("https://newsatcl-pctr.c.yimg.jp/t/amd-img/20220430-00010018-theworldw-000-1-view.jpg?exp=10800");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35%;
+  width: 35%;
+  background-size: cover;
+  bottom: 0%;
+}
+.pic__container h1{
+  font-size: 1.5rem;
+}
+.pic__container p{
+  text-align: right;
+ 
+}
+.pic__container .text__container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: right;
+  padding-top: 40%;
+  text-align: right;
+  padding-right: 5%;
+  width: 100%;
+  font-size: 2rem;
+  color: white;
+}
+.pic__container .text__container h1{
+  font-size: 2rem;
+}
