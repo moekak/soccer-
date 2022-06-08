@@ -69,7 +69,7 @@ ul li:nth-child(1){
   flex-direction: column;
   align-items: center;
 }
-button{
+.btn{
   width: 40%;
   padding: 4% 5%;
   margin-top: 30%;
@@ -115,14 +115,14 @@ button{
   margin-right: -10%;
 }
 .main__top h3{
-  padding-top:10%;
+  padding-top:5%;
   padding-left: 10%;
   font-size: 1.3rem;
   color: white;
 }
 .main__top h1{
   padding-left: 10%;
-  padding-top: 5%;
+  padding-top: 2%;
   width: 80%;
   font-size: 3.5rem;
   font-weight: bolder;
@@ -130,7 +130,7 @@ button{
 }
 .main__top p{
   padding-left: 10%;
-  padding-top: 5%;
+  padding-top: 2%;
   font-size: 1rem;
   width: 70%;
   color: white;
@@ -155,13 +155,13 @@ button{
 
 .pic__container{
   position: absolute;
-  bottom:-100px;
-  right: 300px;
+  top:35%;
+  right: 10%;
   background-image:url("https://newsatcl-pctr.c.yimg.jp/t/amd-img/20220430-00010018-theworldw-000-1-view.jpg?exp=10800");
   background-position: center;
   background-repeat: no-repeat;
-  height: 35%;
-  width: 35%;
+  height: 30%;
+  width: 40%;
   background-size: cover;
   bottom: 0%;
 }
@@ -186,4 +186,56 @@ button{
 }
 .pic__container .text__container h1{
   font-size: 2rem;
+}
+.read{
+  width: 20%;
+  border: none;
+  padding: 2% 3%;
+  margin: 5% 10% 20% 10%;
+  background-color: black;
+  
+}
+.read .more{
+  color: white;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+/* main__second section */
+.main__second{
+  margin: 10% 8% 0 8%;
+}
+.main__second > h3{
+  font-weight: lighter;
+}
+.main__second > h1{
+  font-size: 3rem;
+  font-weight: lighter;
+  margin-bottom: 8%;
+}
+.info{
+  width: 25%;
+}
+.info h1{
+  line-height: 100%;
+  padding-top: 5%;
+}
+.dashboard{
+  display: flex;
+  width: 100%;
+  gap:10%;
+  margin-right: 120px;
+ 
+}
+/* likes button */
+.heart{
+  position: relative;
+  width: 30%;
+  height: 30%;
+}
+.likes-icon{
+  position: absolute;
+  background: url("https://nelog.jp/wp-content/uploads/2016/03/heart_animation.png");
+  background-size: 29000%;
+  width: 100%;
 }
